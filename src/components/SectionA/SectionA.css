@@ -1,0 +1,48 @@
+.Brand .NG-BRANDS{
+    padding: 10px;
+}
+.Brand{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Brand .NG-BRANDS::before{
+    background-color: rgb(224, 224, 224);
+    content: "";
+    left: 100px;
+    width: 400px;
+    height: 1px;
+    position: absolute;
+    margin-top: 20px;
+}
+.Brand .NG-BRANDS::after{
+    background-color: rgb(224, 224, 224);
+    content: "";
+    position: absolute;
+    right: 100px;
+    width: 400px;
+    height: 1px;
+    margin-top: 20px;
+}
+.NG-ENVATO img{
+    padding: 30px;
+    width: 250px;
+}
+.NG-ENVATO .EVNAT {
+    filter: grayscale(100%);
+}
+
+@media (max-width: 768px) {
+    .Brand .NG-BRANDS::before,
+    .Brand .NG-BRANDS::after {
+        width: 80%; 
+        left: 10%; 
+        right: 10%; 
+    }
+
+    .NG-ENVATO img {
+        width: 80%; 
+        padding: 10px; 
+    }
+}

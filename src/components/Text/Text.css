@@ -1,0 +1,54 @@
+.NG-TEXT {
+    background-color: rgb(24, 24, 94);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+}
+
+.NG-TEXT .NG-TEXT-1 {
+    padding: 5px;
+}
+
+.NG-TEXT .NG-TEXT-1 h4,
+.NG-TEXT .NG-TEXT-1 p {
+    color: #fff;
+    padding: 5px;
+}
+
+.NG-TEXT .NG-TEXT-1 .N-TEXT2 {
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.2);
+    -webkit-text-stroke: 2px rgba(255, 255, 255, 0.2);
+    font-size: 50px;
+}
+
+.NG-TEXT .NG-TEXT-1 .N-TEXT22 {
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.2);
+    -webkit-text-stroke: 2px rgba(255, 255, 255, 0.8);
+    font-size: 50px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+@media (max-width: 767px) {
+    .NG-TEXT {
+        flex-direction: column;
+        padding: 40px;
+    }
+
+    .NG-TEXT .NG-TEXT-1 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .NG-TEXT .NG-TEXT-1 .N-TEXT2,
+    .NG-TEXT .NG-TEXT-1 .N-TEXT22 {
+        font-size: 36px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+}

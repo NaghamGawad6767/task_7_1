@@ -1,0 +1,206 @@
+.Hero {
+    background-color: rgb(56, 75, 255);
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+    width: 100%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    position: relative;
+    z-index: -1;
+    margin-bottom: 80px;
+}
+.NG-image {
+    background-color: white;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    padding: 10px 10px 0 10px;
+    position: absolute;
+    z-index: 1000;
+    bottom: -50px;
+}
+.Hero .Title {
+    padding: 60px;
+    width: 50%;
+    margin-top: 15px;
+}
+
+h1 {
+    margin-top: 15px;
+}
+
+.Hero .Title .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Hero .Title .text .row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.Hero .Title .text .row p {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.Hero .Title .text .GET {
+    align-self: flex-start;
+}
+
+.Hero .Title .review-badges {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    background-color: #4169E1;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 80px;
+}
+
+.Hero .Title .review-badgee {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.Hero .Title .review-badges .review-badgee .SET {
+    display: flex;
+}
+
+.Hero .Title .review-badgee img {
+    border-radius: 50%;
+    margin: 2px;
+}
+
+.Hero .Title .review-badgee .review-count {
+    font-size: 15px;
+}
+
+.Hero .Title button {
+    border-radius: 50px;
+    border: 1px solid #fff;
+    margin: 10px;
+    padding: 10px;
+    color: #fff;
+    background-color: rgb(56, 75, 255);
+}
+
+.Hero .Title .GET {
+    background-color: rgb(249, 135, 0);
+    margin: 10px;
+    border: none;
+    padding: 12px 30px;
+    cursor: pointer;
+}
+
+.Hero .Title .photo .star {
+    color: rgb(0, 182, 122);
+}
+
+.Hero .Title .photo h4 {
+    color: #fff;
+}
+
+.Hero .Title .photo img {
+    width: 70px;
+
+}
+
+.Hero .Title .photo p {
+    color: #fff;
+    margin: 10px;
+}
+
+.Hero .Title .text p {
+    color: #fff;
+    margin: 10px;
+}
+
+.Hero .Title h1 {
+    font-size: 40px;
+    color: #fff;
+}
+
+.Hero .img {
+    width: 50%;
+}
+
+.Hero .img img {
+    width: 70%;
+}
+
+@media (max-width: 767px) {
+    .Hero {
+        flex-direction: column;
+        padding: 30px;
+        border-radius: 30px;
+    }
+
+    .Hero .Title {
+        width: 100%;
+        padding: 0;
+        margin-top: 0;
+    }
+
+    .Hero .Title .text .row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .Hero .Title .text .row p {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .Hero .Title .review-badges {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+        margin-top: 40px;
+    }
+
+    .Hero .Title .review-badgee {
+        margin-bottom: 10px;
+    }
+
+    .Hero .Title .review-badges .review-badgee .SET {
+        margin-right: 10px;
+    }
+
+    .Hero .Title button {
+        margin: 5px;
+        padding: 8px;
+    }
+
+    .Hero .Title .GET {
+        padding: 10px 20px;
+    }
+
+    .Hero .Title .photo img {
+        width: 50px;
+    }
+
+    .Hero .Title .photo p {
+        margin: 5px;
+    }
+
+    .Hero .Title h1 {
+        font-size: 30px;
+    }
+
+    .Hero .img {
+        width: 100%;
+        text-align: center;
+    }
+
+    .Hero .img img {
+        width: 80%;
+    }
+}

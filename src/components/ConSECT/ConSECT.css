@@ -1,0 +1,157 @@
+.section2-con {
+  padding: 40px 20px;
+  display: flex;
+  width: 100%;
+}
+
+.section2-con .left-1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 200px;
+  align-items: start;
+  border-radius: 6px;
+  background-color: rgb(56, 75, 255);
+  padding: 20px;
+
+}
+
+.section2-con .left-1 .address .fal,
+.section2-con .left-1 .email .fal,
+.section2-con .left-1 .emergency .fal {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  margin: 10px;
+  padding: 5px;
+  background-color: #fff;
+}
+
+.section2-con .left-1 .address .fal .FaLocation,
+.section2-con .left-1 .email .fal .FaLocation,
+.section2-con .left-1 .emergency .fal .FaLocation {
+  color: #0033a1;
+}
+
+.section2-con .left-1>div {
+  display: flex;
+  align-items: center;
+  text-align: start;
+}
+
+.section2-con .left-1 img {
+  width: 24px;
+  height: 24px;
+  margin-right: 20px;
+}
+
+.section2-con .left-1 p {
+  margin: 0;
+  color: #fff;
+}
+.section2-con .right-1 {
+  margin-left: 25px;
+  text-align: start;
+  
+}
+.section2-con .NG-MYPHOTO img {
+  height: 150px;
+}
+
+.right-1 {
+  margin: 25px;
+  height: 200px;
+}
+
+.right-1 .con {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  text-align: start;
+  margin-top: 30px
+}
+
+.right-1 .con .concon {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.right-1 .con .MES {
+  margin-top: 10px;
+
+}
+
+input {
+  padding: 10px;
+  border-radius: 2px;
+  border: 1px solid;
+  margin: 5px;
+  width: 90%;
+}
+textarea{
+  padding: 10px;
+  border-radius: 2px;
+  border: 1px solid;
+  margin: 5px;
+  width: 78%;
+}
+button {
+  margin-top: 10px;
+  border-radius: 50px;
+  border: 1px solid #fff;
+  padding: 10px;
+  color: #fff;
+  background-color: rgb(56, 75, 255);
+}
+
+@media (max-width: 767px) {
+  .section2-con {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .section2-con .left-1 {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+  }
+
+  .section2-con .left-1>div {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .section2-con .left-1 img {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .section2-con .right-1 {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .section2-con .NG-MYPHOTO img {
+    height: 120px;
+  }
+
+  .right-1 {
+    margin: 10px;
+  }
+
+  .right-1 .con {
+    width: 100%;
+  }
+
+  .right-1 .con .concon {
+    flex-direction: column;
+  }
+
+  input, textarea {
+    padding: 8px;
+  }
+
+  button {
+    padding: 8px 15px;
+  }
+}

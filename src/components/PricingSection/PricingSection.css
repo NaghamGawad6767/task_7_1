@@ -1,0 +1,225 @@
+.pricing-section {
+    padding: 80px 0;
+}
+
+.pricing-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.pricing-header .your-button {
+    background-color: #fff;
+    color: #4c6ef5;
+    font-size: 20px;
+}
+
+.pricing-header .FALSEE {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.pricing-header h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.pricing-toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    align-items: center;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.pricing-header .pricing-toggle img {
+    width: 50px;
+}
+
+.pricing-toggle span {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.pricing-toggle span.active {
+    background-color: #4c6ef5;
+    color: #fff;
+}
+
+.pricing-toggle span.save-25 {
+    background-color: #fff;
+    color: #4c6ef5;
+
+}
+
+.pricing-plans {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.plan-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: center;
+    flex: 1;
+}
+
+.plan-card .NG-plan {
+    background-color: #4c6ef5;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.plan-card .NG-plans {
+    background-color: rgb(24, 24, 94);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.plan-card .NG-plans .NG-plans-1 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.plan-card .NG-plans .NG-plan-1 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.plan-card .NG-plans img {
+    width: 100px;
+
+}
+
+.plan-card .NG-plan img {
+    width: 100px;
+
+}
+
+.plan-card .NG-plans p,
+.plan-card .NG-plans h3 {
+    color: #fff;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.plan-card .NG-plan p,
+.plan-card .NG-plan h3 {
+    color: #fff;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.plan-card h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.plan-card .price {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.plan-card .plan-features {
+    list-style-type: none;
+    padding: 0;
+    margin: 30px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.plan-card .plan-features .TRUE {
+    color: #4c6ef5;
+    font-size: 15px;
+}
+
+.plan-card .plan-features .FALSE {
+    color: red;
+    font-size: 15px;
+}
+
+.plan-card .plan-features .DEV-1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan-card .plan-features li {
+    margin-bottom: 10px;
+    color: rgb(106, 118, 145);
+}
+
+.plan-card .plan-features .DEV-1 .GOUNVER {
+    color: rgb(106, 118, 145);
+}
+
+.plan-card .get-started-btn {
+    background-color: #fff;
+    color: #4c6ef5;
+    border: 1px solid rgb(220, 226, 225);
+    border-radius: 10px;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.plan-card .gets-started-btn {
+    background-color: rgb(24, 24, 94);
+    border: 1px solid rgb(220, 226, 225);
+    border-radius: 10px;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+@media (max-width: 767px) {
+    .pricing-section {
+        padding: 40px 0;
+
+    }
+
+    .pricing-header h2 {
+        font-size: 24px;
+    }
+
+    .pricing-plans {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .plan-card {
+        padding: 20px;
+        margin: 10px 0;
+        width: 90%;
+    }
+
+    .plan-card h3 {
+        font-size: 20px;
+    }
+
+    .plan-card .price {
+        font-size: 28px;
+    }
+
+    .plan-card .plan-features li {
+        font-size: 16px;
+    }
+
+}
